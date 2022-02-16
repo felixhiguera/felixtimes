@@ -17,7 +17,7 @@ const AppRouter = () => {
             <Navbar />
 
             <Routes>
-                <Route path="/felixthetimes" element={<GeneralScreen />} />
+                <Route path="/" element={<GeneralScreen />} />
                 <Route path="/entertainment" element={<Entertainment />} />
                 <Route path="/business" element={<Business />} />
                 <Route path="/health" element={<Health />} />

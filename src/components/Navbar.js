@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNav" >
                     <ul class="navbar-nav  h5"  >
                         <li class="nav-item ">
-                            <Link class={`nav-link ${category == 'breaking-news' ? 'active' : ''}`} to="/felixthetimes">Breaking-News <span class="sr-only">(current)</span></Link>
+                            <Link class={`nav-link ${category == 'breaking-news' ? 'active' : ''}`} to="/">Breaking-News <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item">
                             <Link class={`nav-link ${category == 'sports' ? 'active' : ''}`} to="/sports">Sports</Link>
