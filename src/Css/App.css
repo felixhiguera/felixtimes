@@ -1,0 +1,74 @@
+body {
+  font-size: 62.5%;
+  background-color: #eeecec;
+}
+
+.contain {
+  width: 0 auto;
+  margin: 20px;
+}
+.contain .center-contain {
+  display: flex;
+  justify-content: center;
+}
+.contain .center-contain .main-new {
+  max-width: 600px;
+}
+.contain .center-contain .main-new img {
+  width: 100%;
+}
+.contain .center-contain .main-new h1 {
+  color: black;
+  text-decoration: none;
+}
+.contain .center-contain .main-new p {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+.contain .news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.contain .news .card {
+  min-width: 150px;
+  height: 300px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.contain .news .card .image img {
+  width: 100%;
+}
+.contain .news .card div {
+  padding: 5px;
+}
+.contain .news .card div h2 {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.footer {
+  background-color: #2e9fd4;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1264px) {
+  .contain .news {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contain .news .card {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contain .news {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .contain .news .card {
+    max-width: 380px;
+  }
+}
