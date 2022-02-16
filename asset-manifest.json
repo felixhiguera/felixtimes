@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/felixtimes/static/css/main.9de64dcf.css",
-    "main.js": "/felixtimes/static/js/main.3719483c.js",
+    "main.css": "/felixtimes/static/css/main.2300a48f.css",
+    "main.js": "/felixtimes/static/js/main.37d2a32c.js",
     "index.html": "/felixtimes/index.html",
-    "main.9de64dcf.css.map": "/felixtimes/static/css/main.9de64dcf.css.map",
-    "main.3719483c.js.map": "/felixtimes/static/js/main.3719483c.js.map"
+    "main.2300a48f.css.map": "/felixtimes/static/css/main.2300a48f.css.map",
+    "main.37d2a32c.js.map": "/felixtimes/static/js/main.37d2a32c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9de64dcf.css",
-    "static/js/main.3719483c.js"
+    "static/css/main.2300a48f.css",
+    "static/js/main.37d2a32c.js"
   ]
 }
